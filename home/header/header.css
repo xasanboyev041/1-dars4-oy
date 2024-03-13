@@ -1,0 +1,49 @@
+header .wrapper-header {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+header .wrapper-header .wrapper-resume {
+  width: 50%;
+}
+header .wrapper-header h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 44px;
+  color: rgb(33, 36, 61);
+}
+header .wrapper-header p {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgb(33, 36, 61);
+  margin-top: 40px;
+  margin-bottom: 38px;
+}
+header .wrapper-header button {
+  font-weight: 500;
+  line-height: 29px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 100, 100);
+  padding: 13px 21px;
+  border-radius: 2px;
+  border: none;
+}
+@media (max-width: 1000px) {
+  header .wrapper-header {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 90px;
+  }
+  header .wrapper-header .wrapper-resume {
+    width: 80%;
+  }
+  header .wrapper-header .ellipse {
+    margin-top: 4px;
+  }
+}/*# sourceMappingURL=header.css.map */
