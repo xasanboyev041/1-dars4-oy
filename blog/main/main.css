@@ -1,0 +1,52 @@
+main {
+  width: 100%;
+}
+main .wrapper-site_main {
+  width: 70%;
+  margin: 0 auto;
+}
+main .wrapper-site_main h1 {
+  margin-top: 100px;
+  margin-bottom: 22px;
+}
+main .wrapper-main-counsl {
+  width: 60%;
+  padding-bottom: 26px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-top: 32px;
+}
+main .wrapper-main-counsl h2 {
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-size: 30px;
+  color: rgb(33, 36, 61);
+}
+main .wrapper-main-counsl .amet {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-size: 16px;
+  color: rgb(33, 36, 61);
+}
+main .wrapper-main-counsl .wrapper-expres {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+main .wrapper-main-counsl .feb {
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 20px;
+  color: rgb(33, 36, 61);
+}
+main .wrapper-main-counsl .hand {
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 20px;
+  color: rgb(134, 149, 164);
+}/*# sourceMappingURL=main.css.map */

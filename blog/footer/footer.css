@@ -1,0 +1,30 @@
+footer {
+  width: 100%;
+  margin-top: 53px;
+}
+footer .wrapper-footer {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .wrapper-footer img {
+  margin-right: 35px;
+}
+footer p {
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(33, 36, 61);
+  margin-top: 26px;
+}
+@media (max-width: 500px) {
+  footer .wrapper-footer img {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 370px) {
+  footer .wrapper-footer img {
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */
