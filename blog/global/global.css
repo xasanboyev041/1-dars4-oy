@@ -1,1 +1,9 @@
-/*# sourceMappingURL=global.css.map */
+@import url(../../blog/footer/footer.css);
+@import url(../../blog/header/header.css);
+@import url(../../blog/main/main.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
