@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    .wrapper-footer {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 134px;
+        margin-bottom: 60px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto auto auto auto;
+    }
+    p {
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgba(33, 36, 61, 1);
+        font-size: 14px;
+        
+
+    }
+    @media (max-width:600px) {
+        .wrapper-footer {
+            width: 30%;
+            margin: 0 auto;
+            margin-top: 74px;
+            margin-bottom: 30px;
+            display: grid;
+            gap: 15px;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        
+    }
+}
